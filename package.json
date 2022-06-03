@@ -1,10 +1,10 @@
 
 {
-  "name": "todo-npm-test-deploy",
+  "name": "npmdeploy",
   "version": "1.0.0",
   "description": "Example of how to deploy a plugin to NPM.",
   "strapi": {
-    "name": "todo-npm-test-deploy",
+    "name": "npmdeploy",
     "displayName": "Test NPM Deploy",
     "description": "Example of how to deploy a plugin to NPM.",
     "kind": "plugin"
