@@ -1,9 +1,9 @@
 {
-  "name": "npmdeploy",
+  "name": "test-npm-deploy",
   "version": "1.0.0",
   "description": "Testing how to publish our plugin to NPM.",
   "strapi": {
-    "name": "npmdeploy",
+    "name": "test-npm-deploy",
     "description": "Testing how to publish our plugin to NPM.",
     "kind": "plugin",
     "displayName": "NPM Deploy"
@@ -18,13 +18,13 @@
   },
   "author": {
     "name": "Paul Brats",
-    "email": "paul.bratslavsky@strapi.io",
+    "email": "paul.bratslavsky@gmail.com",
     "url": "https://strapi.io"
   },
   "maintainers": [
     {
       "name": "Paul Brats",
-      "email": "paul.bratslavsky@strapi.io",
+      "email": "paul.bratslavsky@gmail.com",
       "url": "https://strapi.io"
     }
   ],
