@@ -1,12 +1,12 @@
 
 {
-  "name": "todo-test-deploy",
+  "name": "todo-npm-test-deploy",
   "version": "1.0.0",
-  "description": "Simple Todo plugin example for the Plugin Dev 101 Course.",
+  "description": "Example of how to deploy a plugin to NPM.",
   "strapi": {
-    "name": "todo-plugin-dev-101",
-    "displayName": "Todo Plugin Dev 101",
-    "description": "Simple Todo plugin example for the Plugin Dev 101 Course.",
+    "name": "todo-npm-test-deploy",
+    "displayName": "Test NPM Deploy",
+    "description": "Example of how to deploy a plugin to NPM.",
     "kind": "plugin"
   },
   "repository": {
