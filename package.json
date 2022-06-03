@@ -1,12 +1,13 @@
+
 {
-  "name": "test-npm-deploy",
+  "name": "todo-test-deploy",
   "version": "1.0.0",
-  "description": "Testing how to publish our plugin to NPM.",
+  "description": "Simple Todo plugin example for the Plugin Dev 101 Course.",
   "strapi": {
-    "name": "test-npm-deploy",
-    "description": "Testing how to publish our plugin to NPM.",
-    "kind": "plugin",
-    "displayName": "NPM Deploy"
+    "name": "todo-plugin-dev-101",
+    "displayName": "Todo Plugin Dev 101",
+    "description": "Simple Todo plugin example for the Plugin Dev 101 Course.",
+    "kind": "plugin"
   },
   "repository": {
     "type": "git",
@@ -14,25 +15,25 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@strapi/strapi": "^4.0.0" 
+    "@strapi/strapi": "^4.0.0"
+  },
+  "resolutions": {
+    "yargs": "^17.2.1"
   },
   "author": {
-    "name": "Paul Brats",
+    "name": "Paul Bratslavsky",
     "email": "paul.bratslavsky@gmail.com",
     "url": "https://strapi.io"
   },
   "maintainers": [
     {
-      "name": "Paul Brats",
+      "name": "Paul Bratslavsky",
       "email": "paul.bratslavsky@gmail.com",
       "url": "https://strapi.io"
     }
   ],
-  "resolutions": {
-    "yargs": "^17.2.1"
-  },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.x.x <=14.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
