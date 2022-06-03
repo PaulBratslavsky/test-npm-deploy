@@ -1,20 +1,31 @@
 {
   "name": "npmdeploy",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "1.0.0",
+  "description": "Testing how to publish our plugin to NPM.",
   "strapi": {
     "name": "npmdeploy",
-    "description": "Description of Npmdeploy plugin",
+    "description": "Testing how to publish our plugin to NPM.",
     "kind": "plugin",
-    "displayName": "Npmdeploy"
+    "displayName": "NPM Deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulBratslavsky/test-npm-deploy"
   },
   "dependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0" 
+  },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Paul Brats",
+    "email": "paul.bratslavsky@strapi.io",
+    "url": "https://strapi.io"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Paul Brats",
+      "email": "paul.bratslavsky@strapi.io",
+      "url": "https://strapi.io"
     }
   ],
   "engines": {
